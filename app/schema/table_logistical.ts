@@ -21,6 +21,7 @@ const logisticalTable: TableConfig = {
         contacts: getCellByType(row, 'contact').value,
         date: getCellByType(row, 'date').value,
         allowPersonal: getCellByName(row, '是否接受个人捐赠').value,
+        allowPersonalBool: getCellByType(row, 'bool').value,
         url: getCellByName(row, '发布链接').value,
         remark: getCellByName(row, '备注').value,
         area: getCellByName(row, '物流区域').value,
